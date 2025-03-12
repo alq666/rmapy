@@ -9,7 +9,7 @@ verify_ssl = true
 requests = "*"
 pyaml = "*"
 sphinx = "*"
-urllib3 = ">=1.26.5"
+urllib3 = ">=1.26.17"
 
 [requires]
-python_version = "3.7"
+python_version = "3.13"
