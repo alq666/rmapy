@@ -3,5 +3,5 @@ pyaml==19.4.1
 sphinx==2.2.0
 sphinx-autodoc-typehints==1.8.0
 guzzle-sphinx-theme==0.7.11
-urllib3>=1.26.5
-
+urllib3>=1.26.17
+certifi>=2023.7.22 # removal of e-tugra cert
