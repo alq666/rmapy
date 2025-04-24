@@ -136,3 +136,5 @@ dmypy.json
 
 package.sh
 VERSION
+mcp.json
+.lock
