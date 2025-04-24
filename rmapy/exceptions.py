@@ -5,7 +5,7 @@ class AuthError(Exception):
 
 
 class DocumentNotFound(Exception):
-    """Could not found a requested document"""
+    """Could not find a requested document"""
     def __init__(self, msg):
         super(DocumentNotFound, self).__init__(msg)
 
@@ -17,13 +17,13 @@ class UnsupportedTypeError(Exception):
 
 
 class FolderNotFound(Exception):
-    """Could not found a requested folder"""
+    """Could not find a requested folder"""
     def __init__(self, msg):
         super(FolderNotFound, self).__init__(msg)
 
 
 class ApiError(Exception):
-    """Could not found a requested document"""
+    """API error returned by the Remarkable Cloud"""
     def __init__(self, msg, response=None):
         self.response = response
         super(ApiError, self).__init__(msg)

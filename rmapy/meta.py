@@ -15,10 +15,10 @@ class Meta(object):
         ModifiedClient: When the last change was by the client.
         Type: Currently there are only 2 known types: DocumentType &
             CollectionType.
-        VissibleName: The human name of the object.
+        VisibleName: The human name of the object.
         CurrentPage: The current selected page of the object.
         Bookmarked: If the object is bookmarked.
-        Parent: If empty, this object is is the root folder. This can be an ID
+        Parent: If empty, this object is the root folder. This can be an ID
             of a CollectionType.
 
     """
@@ -33,7 +33,7 @@ class Meta(object):
     BlobURLPutExpires = ""
     ModifiedClient = ""
     Type = ""
-    VissibleName = ""
+    VisibleName = ""
     CurrentPage = 1
     Bookmarked = False
     Parent = ""
@@ -63,7 +63,7 @@ class Meta(object):
             "BlobURLPutExpires": self.BlobURLPutExpires,
             "ModifiedClient": self.ModifiedClient,
             "Type": self.Type,
-            "VissibleName": self.VissibleName,
+            "VisibleName": self.VisibleName,
             "CurrentPage": self.CurrentPage,
             "Bookmarked": self.Bookmarked,
             "Parent": self.Parent
